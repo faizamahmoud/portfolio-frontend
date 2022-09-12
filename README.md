@@ -1,4 +1,4 @@
-# Full-Day Build
+# Full-Day Build Frontend
 
 The Goal of Today is to give you a day to build a Full-Stack Portfolio website using Express and React. Follow the Lab to build and deploy your backend Express app and your Frontend React app then customize both to your liking!
 

@@ -10,3 +10,5 @@ During this lab, we will be creating a full-stack portfolio page using Express a
 
 # Getting Started
 We will generate a react project within the frontend directory `npx create-react-app ./`
+
+##### Continue to follow the instructions within the notion...

@@ -9,6 +9,4 @@ Take advantage of the day to ask questions of the instructional team throughout 
 During this lab, we will be creating a full-stack portfolio page using Express and React to see how you can create a full-stack project using a simple API build with express and a frontend application with React.
 
 # Getting Started
-We will generate a react project within the frontend directory, either of these two commands should do the trick (the command should be run from the express-*react* folder so make sure your terminal is in that folder)...
-    - `npx create-react-app ./`
-    - `npm init @vitejs/app ./ --template react`
+We will generate a react project within the frontend directory `npx create-react-app ./`

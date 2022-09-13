@@ -1,9 +1,8 @@
-import "./App.css";
-
+// import "/App.css";
 // IMPORT COMPONENTS
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes, Switch } from "react-router-dom";
 // IMPORT PAGES
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -27,4 +26,6 @@ function App() {
   );
 }
 
+// what do we need to keep track of on the client-side, dynamically combing components, clipLoader(isLoading, setIsLoading)= useState(true) : useState
+// is it a vlue that would make sense to keep track of, and make it more readable and is it a value that I was to change
 export default App;

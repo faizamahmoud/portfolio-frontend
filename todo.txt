@@ -1,0 +1,6 @@
+github readme with netlify link
+add backend links to fetch: about, home, and projects
+
+
+
+Portfolio home - 

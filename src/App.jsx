@@ -18,7 +18,6 @@ return (
       <About />
       <Projects />
       <Skills />
-      
       <Contact />
     </main>
     

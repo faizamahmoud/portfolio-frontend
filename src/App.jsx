@@ -1,10 +1,13 @@
 
 import React from "react";
-import About from "../src/components/About";
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
+import Socials from "./components/Socials";
 import Contact from "../src/components/Contact";
 import Navbar from "../src/components/NavBar";
 import Projects from "../src/components/Projects";
 import Skills from "../src/components/Skills";
+import Home from "./components/Home";
 // import { Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -13,13 +16,32 @@ export default function App() {
 
 
 return (
-    <main>
-      <Navbar />
-      <About />
+  <section>
+  <Navbar /> 
+  <Socials />
+  <Routes>
+    
+    {/* <main> */}
+      
+      {/* <About />
       <Projects />
       <Skills />
-      <Contact />
-    </main>
+      <Contact /> */}
     
+    
+    <Route path='/' element={<Home />} />
+    {/* <Route path='/about' element={<About/>} /> */}
+    <Route path='/contact' element={<Contact/>} />
+    <Route path='/projects' element={<Projects/>} />
+    <Route path='/skills' element={<Skills/>} />
+    {/* </main> */}
+    {/* <Route path='/sign-up' element={<SignUp/>} /> */}
+</Routes>
+</section>
+
+
+
+
+
   )
 }
